@@ -1,0 +1,12 @@
+
+modules.order
+Module.symvers
+uPR24drv.ko
+.uPR24drv.ko.cmd
+uPR24drv.mod
+uPR24drv.mod.c
+.uPR24drv.mod.cmd
+uPR24drv.mod.o
+.uPR24drv.mod.o.cmd
+uPR24drv.o
+.uPR24drv.o.cmd
