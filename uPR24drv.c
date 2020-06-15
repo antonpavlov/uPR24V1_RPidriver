@@ -63,7 +63,7 @@ static int __init uPR24drv_init(void)
 {
 	int ret;
 
-	ret = register_uPR24drv(0, "uPR24drv", &uPR24drv_fops);
+	ret = register_chrdev(0, "uPR24drv", &uPR24drv_fops);
 	if (ret < 0) {
 		pr_err("unable to register char device! Error %d\n", ret);
 		return ret;
@@ -76,7 +76,7 @@ static int __init uPR24drv_init(void)
 
 static void __exit uPR24drv_exit(void)
 {
-	unregister_uPR24drv(major, "uPR24drv");
+	unregister_chrdev(major, "uPR24drv");
 }
 
 module_init(uPR24drv_init);
