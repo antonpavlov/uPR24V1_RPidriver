@@ -10,3 +10,5 @@ uPR24drv.mod.o
 .uPR24drv.mod.o.cmd
 uPR24drv.o
 .uPR24drv.o.cmd
+uPR24drv_test
+.vscode/
